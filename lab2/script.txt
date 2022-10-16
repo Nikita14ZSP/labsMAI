@@ -1,0 +1,9 @@
+#!/bin/bash
+read -p "Введите чсило:" num
+if [ $num -gt 0 ]; then
+echo "Число положительное"
+elif [ $num -lt 0 ]; then
+echo "Число отрицательное"
+else
+echo "Число является нулём"
+fl
